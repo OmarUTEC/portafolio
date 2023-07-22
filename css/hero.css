@@ -1,0 +1,186 @@
+.title {
+    height: 50rem;
+    width: 100%;
+
+    background-image: url(../imgs/background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 12%;
+
+
+
+}
+
+.title__div {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+
+
+}
+
+.title__profile {
+    padding: 1rem;
+    width: 368px;
+    height: 368px;
+    border-radius: 200px;
+    align-items: center;
+
+}
+
+.title__container {
+    width: 50%;
+    padding: 1% 2% 3% 4%;
+    align-items: center;
+
+}
+
+.title__intro {
+    font-size: 2rem;
+    color: #fec32b;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.title__name {
+    font-size: 6rem;
+    color: white;
+    font-weight: bold;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    padding-left: 5%;
+    padding-right: 4%;
+
+    transition: all 0.5s;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+
+}
+
+.title__subsection {
+    font-size: 1.5rem;
+    text-align: justify;
+    color: #fec32b;
+    padding-top: 2rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+
+.title__intro,
+.title__subsection {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.title__network {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title__network__item {
+
+    width: 12%;
+    text-align: center;
+    transition: all 0.5s;
+    &:hover{
+        color: var(--color-t2);
+        transform: scale(1.2);
+    }
+
+}
+
+.title__logo{
+    transition: all 0.5s;
+    
+    &:hover{
+        transform: scale(1.2);
+    }
+}
+
+
+.title__p {
+    padding-top: 0.5rem;
+    
+    
+}
+
+@media screen and (max-width: 767px) {
+    .title {
+        height: 50%;
+        width: 100%;
+        padding-top: 4rem;
+        padding-bottom: 5rem;
+    }
+
+    .title__div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title__profile {
+        width: 15rem;
+        height: 15rem;
+
+    }
+
+    .title__container {
+        padding: 0%;
+        width: 100%;
+    }
+
+    .title__intro {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .title__name {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .title__subsection {
+        padding: 7%;
+        font-weight: normal;
+    }
+
+    .title__network {
+        display: flex;
+    }
+
+    .title__network__item {
+
+        width: 100%;
+        text-align: center;
+    }
+
+    .title__p {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1193px) {
+    .title {
+        height: 60%;
+        width: 100%;
+        padding-top: 4rem;
+        padding-bottom: 5rem;
+    }
+
+    .title__profile {
+        width: 19rem;
+        height: 19rem;
+    }
+
+    .title__name {
+        font-size: 3.3rem;
+    }
+
+    .title__subsection {
+        font-size: 1.6rem;
+    }
+}

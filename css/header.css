@@ -1,0 +1,89 @@
+.menu__header{
+    background-color: var(--color-background-header);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 2.5rem;
+    position: relative;
+
+    transition: all 0.5s;
+}
+
+.icon_name{
+    font-size: 2rem;
+    color: white;
+    padding-left: 3%;
+
+    transition: all 0.5s;
+}
+
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+
+    transition: all 0.5s;
+}
+
+.headerPrincipal_nav_item {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-family: var(--roboto);
+    font-size: 1.2rem;
+    margin-right: 0.45rem;
+    margin-left: 0.45rem;
+    padding: 0.5rem 0.5rem;
+
+    transition: all 0.5s;
+}
+
+.item_email {
+    font-weight: bold;
+    
+    transition: all 0.5s;
+}
+
+/* Responsive mobiles */
+@media screen and (max-width: 767px) {
+    .header_item_desktop {
+        display: none;
+
+        transition: all 0.5s;
+    }
+
+    .icon_name {
+        font-size: 0.9rem;
+
+        transition: all 0.5s;
+    }
+
+    .headerPrincipal_nav_item {
+        font-size: 0.7rem;
+
+        transition: all 0.5s;
+    }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1193px) {
+    .header_item_desktop {
+        display: none;
+
+        transition: all 0.5s;
+    }
+
+    .icon_name {
+        font-size: 1.5rem;
+
+        transition: all 0.5s;
+    }
+
+    .headerPrincipal_nav_item {
+        font-size: 1rem;
+
+        transition: all 0.5s;
+    }
+}

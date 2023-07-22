@@ -1,0 +1,46 @@
+:root{
+    --color-fondo: #000;
+    --color-about: #0e162d;
+    --color-link: #fec32b;
+    --color-t1: #ed1d7f;
+    --color-t2: #00acee;
+    --color-font: #fff;
+    --montserrat: 'Montserrat', sans-serif;
+    --open-sans: 'Open Sans', sans-serif;
+    --color-background-header: #0e162d;
+
+}
+
+body {
+    box-sizing: border-box;
+    color: var(--color-font);
+    background-color: var(--color-fondo);
+    font-family: var(--open-sans);
+    margin: 0;
+    padding: 0%;
+    line-height: 1;
+}
+
+
+/*para la barra scroll*/
+body::-webkit-scrollbar {
+    width: 1.5vh;
+}
+
+body::-webkit-scrollbar-track {
+    background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 1px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #fec32b;
+}
+
+#particles-js{
+    width: 100%;
+    height: 300px;
+}
